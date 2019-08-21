@@ -1,0 +1,13 @@
+.contact-info>ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.contact-info li{
+  margin-bottom: 20px;
+}
+.contact-info i{
+  color: #2eca7f;
+  font-size: 20px;
+  min-width: 80px;
+}

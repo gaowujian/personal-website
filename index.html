@@ -9,17 +9,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css">
-  
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/content.css">
-  <script defer src="js/stickyHeader.js"></script>
-  <script defer src="js/toggleMenu.js"></script>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
   <header>
-    <h2>Wujian <span>Gao</span></h2>
+    <div class="block-title">
+      <h2>Wujian <span>Gao</span></h2>
+    </div>
     <ul class="nav-list">
       <li>Home</li>
       <li>Resume</li>
@@ -28,35 +31,204 @@
       <li>Contact</li>
     </ul>
     <div class="toggleMenuButton">
-        <i class="fas fa-align-justify"></i>
+      <i class="fas fa-align-justify"></i>
     </div>
   </header>
-  <main class="container ">
-    <div class="content-top row">
-      <div class="photo col-md-6 col-12 ">
-        <img src="./images/profile.jpg" alt="profile">
+  <main class="container">
+    <section class="home">
+      <div class="content-top row">
+        <div class="photo col-md-6 col-12 ">
+          <img src="./images/profile.jpg" alt="profile">
+        </div>
+        <div class="title-block col-md-6 col-12">
+          <h1>Wujian Gao</h1>
+          <span>Web Developer</span>
+        </div>
       </div>
-      <div class="title-block col-md-6 col-12">
-        <h1>Wujian Gao</h1>
-        <span>Web Developer</span>
+      <div class="content-bottom row">
+        <div class="about-me col-md-6 col-12">
+          <div class="block-title">
+            <h3>About <span>Me</span></h3>
+          </div>
+          <p>Hello! I’m Wujian Gao Doe. With a strong willingness to understand clients’ needs and develop the best
+            features, I will bring excellent coding, communication, and time-management skills to the position.</p>
+        </div>
+        <div class="info-list col-md-6 col-12">
+          <ul>
+            <li><span class="title">Age</span>26</li>
+            <li><span class="title">Residence</span>Australia</li>
+            <li><span class="title">Address</span>B0201 2 Barratt Street Hursville</li>
+            <li><span class="title">E-mail</span><span>gwjlshebei@gmail.com</span></li>
+            <li><span class="title">Phone</span>0452563075</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="content-bottom row">
-      <div class="about-me col-md-6 col-12">
-        <h3>About <span>Me</span></h3>
-        <p>Hello! I’m Wujian Gao Doe. With a strong willingness to understand clients’ needs and develop the best
-          features, I will bring excellent coding, communication, and time-management skills to the position.</p>
+    </section>
+    <section class="resume">
+      <div class="content-top row">
+        <div class="section-title">
+          <h1>Resume</h1>
+        </div>
       </div>
-      <div class="info-list col-md-6 col-12">
-        <ul>
-          <li><span class="title">Age</span>26</li>
-          <li><span class="title">Residence</span>Australia</li>
-          <li><span class="title">Address</span>B0201 2 Barratt Street Hursville</li>
-          <li><span class="title">E-mail</span><span>gwjlshebei@gmail.com</span></li>
-          <li><span class="title">Phone</span>0452563075</li>
-        </ul>
+      <div class="content-bottom row">
+        <div class="row container-fluid">
+          <div class="experience col-md-6 col-12">
+            <h4 class="block-title">Experience</h4>
+            <div class="timeline-item">
+              <h5 class="item-title">Front-end Developer</h5>
+              <span class="item-period">2019.2 - Present</span>
+              <span class="item-small">AR Academy</span>
+              <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                tortor.</p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="item-title">Web Developer Intern</h5>
+              <span class="item-period">2018.11 - 2019.1</span>
+              <span class="item-small">Webvine</span>
+              <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                tortor.
+              </p>
+            </div>
+          </div>
+          <div class="education col-md-6 col-12">
+            <h4 class="block-title">Education</h4>
+            <div class="timeline-item">
+              <h5 class="item-title">Master of Information Technology and Information Technology Management</h5>
+              <span class="item-period">2016 - 2018</span>
+              <span class="item-small">University of Sydney, Australia</span>
+              <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                tortor.</p>
+            </div>
+            <div class="timeline-item">
+              <h5 class="item-title">Bachlor of Software Engineering</h5>
+              <span class="item-period">2011 - 2015</span>
+              <span class="item-small">Hebei Normal University, China</span>
+              <p class="item-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
+                tortor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row container-fluid">
+          <div class="design-skills col-md-6 col-12">
+            <div class="block-title">
+              <h3>Design <span>skills</span></h3>
+            </div>
+            <h4 class="skill-name">HTML5</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-1"></div>
+            </div>
+
+            <h4 class="skill-name">CSS3</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-2"></div>
+            </div>
+
+            <h4 class="skill-name">React</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-3"></div>
+            </div>
+          </div>
+          <div class="coding-skills col-md-6 col-12">
+            <div class="block-title">
+              <h3>Coding <span>skills</span></h3>
+            </div>
+            <h4 class="skill-name">communication skill</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-4"></div>
+            </div>
+
+            <h4 class="skill-name">problem solving</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-5"></div>
+            </div>
+
+            <h4 class="skill-name">attention to detail</h4>
+            <div class="skill-container">
+              <div class="skill-percentage skill-6"></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="service">
+      service section
+    </section>
+    <section class="blog">
+      blog section
+    </section>
+    <section class="contact">
+      <div class="content-top row">
+        <div class="section-title">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <div class="content-bottom row">
+        <div class="get-in-touch col-md-6 col-12">
+          <div class="block-title">
+            <h4>Get in <span>Touch</span></h4>
+          </div>
+          <div class="contact-info">
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i>Sydney,Australia</li>
+              <li><i class="fas fa-envelope"></i>gwjlshebei@gmail.com</li>
+              <li><i class="fas fa-phone"></i>0452563075</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-form col-md-6 col-12">
+          <div class="block-title">
+            <h4>Contact <span>Form</span></h4>
+          </div>
+          <form id="contact-form" method="post" action="contact_form/contact_form.php" novalidate="true">
+
+            <div class="messages"></div>
+
+            <div class="controls">
+              <div class="form-group form-group-with-icon">
+                <i class="fa fa-user"></i>
+                <label>Full Name</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required"
+                  data-error="Name is required.">
+                <div class="form-control-border"></div>
+                <div class="help-block with-errors"></div>
+              </div>
+
+              <div class="form-group form-group-with-icon">
+                <i class="fa fa-envelope"></i>
+                <label>Email Address</label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required"
+                  data-error="Valid email is required.">
+                <div class="form-control-border"></div>
+                <div class="help-block with-errors"></div>
+              </div>
+
+              <div class="form-group form-group-with-icon">
+                <i class="fa fa-comment"></i>
+                <label>Message for Me</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="" rows="4"
+                  required="required" data-error="Please, leave me a message."></textarea>
+                <div class="form-control-border"></div>
+                <div class="help-block with-errors"></div>
+              </div>
+
+              <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI">
+                <div style="width: 304px; height: 78px;">
+                  <div><iframe
+                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI&amp;co=aHR0cHM6Ly9hdXN0cmFsaWFpdGdyb3VwLmdpdGh1Yi5pbzo0NDM.&amp;hl=en&amp;v=v1563777128698&amp;size=normal&amp;cb=9e70loswsq8o"
+                      width="304" height="78" role="presentation" name="a-lnw7ueie9emn" frameborder="0" scrolling="no"
+                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                  </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                    style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                </div>
+              </div>
+
+              <input type="submit" class="button btn-send disabled" value="Send message">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
   </main>
   <footer>
     <p>© 2019 All rights reserved. Designed by Wujian Gao</p>
@@ -73,6 +245,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
+  <script src="js/stickyHeader.js"></script>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/pageTransition.js"></script>
+  <script src="js/validator.js"></script>
 </body>
 
 </html>

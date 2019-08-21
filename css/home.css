@@ -1,3 +1,16 @@
+/* initialization others sections */
+.home ~ section{
+  display: none;
+}
+
+/* .home{
+  display: none
+}
+
+.contact{
+  display: block !important
+} */
+
 .content-top {
   display: flex;
   align-items: center;
@@ -50,6 +63,8 @@
   list-style-type: none;
   padding-inline-start: 0;
 }
+
+
 
 span.title {
   display: inline-block;
