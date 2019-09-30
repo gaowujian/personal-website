@@ -1,6 +1,6 @@
-# Project Title
+# Personal website
 
-Personal website. It's built to show my basic profile to get others to know me in a fast way.
+This web app is built to show my basic profile to get others to know me in a fast way.
 
 It is built with responsive design, feel free to view it on different devices at https://gaowujian.github.io/personal-website/
 
